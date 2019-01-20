@@ -123,4 +123,36 @@ namespace MyCoreTwo.Models
         }
 
     }
+
+
+
+    public static class ILoggerExtensions
+    {
+        public static void AddInformationProvider(this ILoggingBuilder logging)
+        {
+            var configError = new ColoredConsoleLoggerConfiguration
+            {
+                LogLevel = LogLevel.Information,
+                Color = ConsoleColor.Cyan
+            };
+            logging.AddProvider(new ColoredConsoleLoggerProvider(configError));
+        }
+
+        public static void AddWarningProvider(this ILoggingBuilder logging)
+        {
+           
+            logging.AddProvider(new ColoredConsoleLoggerProvider(new ColoredConsoleLoggerConfiguration()));
+        }
+        public static void AddErrorProvider(this ILoggingBuilder logging)
+        {
+            var configError = new ColoredConsoleLoggerConfiguration
+            {
+                LogLevel = LogLevel.Error,
+                Color = ConsoleColor.Red
+            };
+            logging.AddProvider(new ColoredConsoleLoggerProvider(configError));
+        }
+    }
+
+
 }

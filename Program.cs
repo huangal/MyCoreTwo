@@ -18,18 +18,24 @@ namespace MyCoreTwo
             WebHost.CreateDefaultBuilder(args)
             .ConfigureLogging((hostingContext, logging) =>
             {
-                logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
-                logging.AddConsole();
+                //logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                //logging.AddConsole();
                 //logging.AddDebug();
                 //logging.AddEventSourceLogger();
-                //logging.ClearProviders();
+                logging.ClearProviders();
 
-                var config = new ColoredConsoleLoggerConfiguration
-                {
-                    LogLevel = LogLevel.Warning,
-                    Color = ConsoleColor.Yellow
-                };
-                logging.AddProvider(new ColoredConsoleLoggerProvider(config));
+                //var config = new ColoredConsoleLoggerConfiguration
+                //{
+                //    LogLevel = LogLevel.Warning,
+                //    Color = ConsoleColor.Yellow
+                //};
+                //logging.AddProvider(new ColoredConsoleLoggerProvider(config));
+
+                logging.AddInformationProvider();
+                logging.AddWarningProvider();
+                logging.AddErrorProvider();
+
+
             })
                 .UseStartup<Startup>();
     }

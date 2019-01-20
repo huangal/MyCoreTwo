@@ -36,6 +36,8 @@ namespace MyCoreTwo.Controllers
         public IEnumerable<Contact> GetAll()
         {
             _logger.LogInformation("HAL Executing Contacts/Get full info");
+            _logger.LogWarning("THIS is may warning to you");
+            _logger.LogError("YOU are busted!......");
             return _contacts.GetAll();
         }
 
