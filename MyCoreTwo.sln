@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoreTwo", "MyCoreTwo\MyCoreTwo.csproj", "{986CBA8A-D9FB-48D7-876B-E9664A6CBB69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoreTwo.UnitTests", "MyCoreTwo.UnitTests\MyCoreTwo.UnitTests.csproj", "{C4AAFE1D-3D45-4A0F-A987-35508A19B781}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoreTwo.IntegrationTests", "MyCoreTwo.IntegrationTests\MyCoreTwo.IntegrationTests.csproj", "{FFF0944A-2489-47CB-968A-B0CAB12F7203}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoreTwo.Integration.Tests", "MyCoreTwo.Integration.Tests\MyCoreTwo.Integration.Tests.csproj", "{E1317175-4D9D-4B5A-9C3A-513729DDBF8A}"
 EndProject
 Global
@@ -19,14 +15,6 @@ Global
 		{986CBA8A-D9FB-48D7-876B-E9664A6CBB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986CBA8A-D9FB-48D7-876B-E9664A6CBB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986CBA8A-D9FB-48D7-876B-E9664A6CBB69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C4AAFE1D-3D45-4A0F-A987-35508A19B781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4AAFE1D-3D45-4A0F-A987-35508A19B781}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4AAFE1D-3D45-4A0F-A987-35508A19B781}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4AAFE1D-3D45-4A0F-A987-35508A19B781}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FFF0944A-2489-47CB-968A-B0CAB12F7203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FFF0944A-2489-47CB-968A-B0CAB12F7203}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FFF0944A-2489-47CB-968A-B0CAB12F7203}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FFF0944A-2489-47CB-968A-B0CAB12F7203}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E1317175-4D9D-4B5A-9C3A-513729DDBF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E1317175-4D9D-4B5A-9C3A-513729DDBF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1317175-4D9D-4B5A-9C3A-513729DDBF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
