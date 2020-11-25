@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DECH.Saml.SSO.App", "DECH.Saml.SSO.App\DECH.Saml.SSO.App.csproj", "{834C10B7-99B7-4E24-88B9-B308120F38CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834C10B7-99B7-4E24-88B9-B308120F38CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834C10B7-99B7-4E24-88B9-B308120F38CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834C10B7-99B7-4E24-88B9-B308120F38CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834C10B7-99B7-4E24-88B9-B308120F38CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0CF67CC-3A6B-44A9-93C0-497EAA83F6D7}
+	EndGlobalSection
+EndGlobal
