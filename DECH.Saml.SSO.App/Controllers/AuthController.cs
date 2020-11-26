@@ -27,9 +27,6 @@ namespace DECH.Saml.SSO.App.Controllers
         [Route("Login")]
         public IActionResult Login(string returnUrl = null)
         {
-
-            //returnUrl = "https://www.umb.com";
-
             var binding = new Saml2RedirectBinding();
             binding.SetRelayStateQuery(new Dictionary<string, string> { { relayStateReturnUrl, returnUrl ?? Url.Content("~/") } });
 
