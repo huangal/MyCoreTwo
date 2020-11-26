@@ -21,15 +21,16 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
 
                         @if (((System.Security.Claims.ClaimsIdentity)User.Identity).IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Claims">SAML Claims</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Claims">SamlClaims</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                            </li>
+
                             <li>
                                 @if (User.Identity.Name != null)
                                 {
